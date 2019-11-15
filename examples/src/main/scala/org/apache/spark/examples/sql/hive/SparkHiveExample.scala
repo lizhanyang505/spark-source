@@ -40,6 +40,7 @@ object SparkHiveExample {
 
     // $example on:spark_hive$
     // warehouseLocation points to the default location for managed databases and tables
+    //可以是任意的路径
     val warehouseLocation = new File("spark-warehouse").getAbsolutePath
 
     val spark = SparkSession
